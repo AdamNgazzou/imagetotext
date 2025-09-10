@@ -8,7 +8,7 @@ import os
 from dotenv import load_dotenv
 
 app = FastAPI()
-frontend_origin = os.getenv("FRONTEND_ORIGIN", "http://localhost:3000")  
+frontend_origin = os.getenv("FRONTEND_ORIGIN", "https://imagetotext-indol.vercel.app")  
 
 app.add_middleware(
     CORSMiddleware,
