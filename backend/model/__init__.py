@@ -1,0 +1,1 @@
+from .model import extract_text_from_image
