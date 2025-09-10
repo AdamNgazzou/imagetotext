@@ -1,2 +1,6 @@
 pytesseract
-Pillow
+fastapi
+uvicorn
+python-multipart
+pillow
+python-dotenv
